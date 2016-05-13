@@ -1,0 +1,145 @@
+ <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">Pages <i class="fa fa-angle-down"></i>
+                      </a>
+
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="about.html">About</a>
+                          </li>
+
+                          <li>
+                              <a href="404.html">404 page</a>
+                          </li>
+
+                          <li>
+                              <a href="career.html">career</a>
+                          </li>
+
+                          <li>
+                              <a href="login.html">Login</a>
+                          </li>
+
+                          <li>
+                              <a href="registration.html">Registration</a>
+                          </li>
+
+                          <li>
+                              <a href="faq.html">FAQ</a>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                              <a href="#" tabindex="-1">Pricing table</a>
+
+                              <ul class="dropdown-menu">
+                                  <li class="dropdown-submenu"></li>
+
+                                  <li>
+                                      <a href="price-table-one.html">Pricing table one</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="price-table-two.html">Pricing table two</a>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li>
+                              <a href="service.html">Service</a>
+                          </li>
+
+                          <li>
+                              <a href="terms.html">Terms & Condition</a>
+                          </li>
+
+                          <li>
+                              <a href="privacy.html">Privacy policy</a>
+                          </li>
+                      </ul>
+                  </li>
+ <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">Portfolio <i class="fa fa-angle-down"></i>
+                      </a>
+
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="portfolio-3-col.html">Portfolio 3 column</a>
+                          </li>
+
+                          <li>
+                              <a href="portfolio-4-col.html">Portfolio 4 column</a>
+                          </li>
+
+                          <li>
+                              <a href="portfolio-single-image.html">Portfolio Single Image</a>
+                          </li>
+
+                          <li>
+                              <a href="portfolio-single-video.html">Portfolio Single Video</a>
+                          </li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">Blog <i class="fa fa-angle-down"></i>
+                      </a>
+
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="blog.html">Blog</a>
+                          </li>
+
+                          <li>
+                              <a href="blog-two-col.html">Blog two column</a>
+                          </li>
+
+                          <li>
+                              <a href="blog-detail.html">Blog Single Image</a>
+                          </li>
+
+                          <li>
+                              <a href="blog-detail-video.html">Blog single video</a>
+                          </li>
+                      </ul>
+                  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://panchawaticredit.com/about_us.html
+
+http://www.pmcbank.com/english/ServicesTwelveHourBanking.aspx
+
+http://vcbl.in/mission_vision
+
+http://www.ambikaurban.com/en/services/
+
+http://www.ambikaurban.com/en/branch-network/
+https://www.behance.net/gallery/18312365/Revere-Bank-Website-Carousel
+
+
+<div style="background-color:#FBE1EE;"></div>
+
+
+Spend what is left after saving
+
+build with passion
+Business banking services to help your vision thrive.
+
+invest in your future
+Mortgage loans for the home where your family memories will be made.
+
+spread your wings
+Personal banking services to build your financial security - and freedom.
+

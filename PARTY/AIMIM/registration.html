@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png">
-    <title>AIMIM | About Us </title>
+    <title>AIMIM | Become a Member </title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <link href="css/component.css" rel="stylesheet">
     <!--external css-->
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/flexslider.css" />
@@ -58,10 +59,9 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a> </li>
-                    <li class="dropdown"><a class="dropdown-toggle"  data-hover="dropdown" href="about.html">About Party <i class="fa fa-angle-down">
-                        </i></a>
+                    <li class="dropdown"><a class="dropdown-toggle" data-hover="dropdown" href="about.html">
+                        About Party <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                             <li><a href="about.html">About Party</a> </li>
                             <li><a href="history.html">History</a> </li>
                         </ul>
                     </li>
@@ -95,78 +95,373 @@
     </div>
     <!--breadcrumbs end-->
     <!--container start-->
-    <div class="container">
+    <div class="container mar-b-40">
         <div class="row">
-          <div class="bs-example">
-    <form class="form-horizontal" role="form" action="">
-      <div class="form-group">
-        <label class="col-sm-3 control-label" for="assembly">Assembly</label>
-       
-        <div class="col-sm-3">
-          <input class="form-control" id="assembly" type="text" required="true" placeholder="Name of Assembly where you reside.">
-        </div>
-        <label class="col-sm-3 control-label" for="ward">Ward</label>
-        <div class="col-sm-3">
-          <input class="form-control" id="ward" type="text" placeholder="Ward Name / Number">
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="col-sm-2 control-label" for="assembly">Do you have an Election Card?</label>
-        <div class="col-sm-10">
-          <div class="radio">
-        <label>
-          <input name="elecard" id="elecard" type="radio" checked="" value="Yes">
-          Yes
-        </label>
-        <div class="radio">
-        <label>
-          <input name="elecard" id="elecardno" type="radio" checked="" value="No">
-          No
-        </label>
-      </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Remember me
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button class="btn btn-default" type="submit">Sign in</button>
-        </div>
-      </div>
-    </form>
-  </div> 
+            <div class="bs-example">
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="assembly">
+                        Assembly</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="assembly" type="text" required="true" placeholder="Name of Assembly where you reside.">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="ward">
+                        Ward</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="ward" type="text" placeholder="Ward Name / Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="assembly">
+                        Do you have an Election Card?</label>
+                    <div class="col-sm-8">
+                        <div class="radios">
+                            <label class="label_radio col-lg-4 col-sm-4" for="elecard">
+                                <input name="yes-radio" id="elecard" type="radio" checked="" value="1">
+                                Yes
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="elecardno">
+                                <input name="no-radio" id="elecardno" type="radio" value="0">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="epnumber">
+                        EP No.</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="epnumber" type="text" placeholder="EP number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="aadhaar">
+                        Aadhaar Card No.</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="aadhaar" type="text" placeholder="Your Aadhaar Card number">
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="firstname">
+                        Full Name</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="firstname" type="text" required="true" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="middleName" type="text" placeholder="Middle Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="lastName" required="true" type="text" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="father_husband_name">
+                        Father / Husband's Name
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="father_husband_name" type="text" placeholder="Father / Husband's Name"
+                            required="true">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="dob">
+                        Date of Birth
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="dob" type="datetime" required="true" placeholder="Date of Birth (dd/mm/yyyy)">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="gender">
+                        Gender</label>
+                    <div class="col-sm-8">
+                        <div class="radios">
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdMale">
+                                <input name="gender" id="rdMale" type="radio" required="true" checked="" value="1">
+                                Male
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdFemale">
+                                <input name="gender" id="rdFemale" type="radio" required="true" value="0">
+                                Female
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="total_member">
+                        Total No. of members in the Family</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="total_member" type="text" placeholder="Total Number of Members in the family">
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="presentaddress">
+                        Present Address</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="presentaddress" type="text" required="true" placeholder="Present Address">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="city_district">
+                        City / District
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="city_district" type="text" placeholder="City / District "
+                            required="true">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="pincode">
+                        Pin Code
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="pincode" type="number" required="true" placeholder="Pin Code">
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="peraddress">
+                        Permanent Address</label>
+                    <label class="col-sm-8">
+                        <input type="checkbox" id="same-above">
+                        <i style="font-weight: 500">Same as Above</i>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4">
+                    </div>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="peraddress" type="text" required="true" placeholder="Permanent Address">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="city_district">
+                        City / District
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="Text2" type="text" placeholder="City / District "
+                            required="true">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="pincode">
+                        Pin Code
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="Number1" type="number" required="true" placeholder="Pin Code">
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="Landline">
+                        Landline</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="Landline" type="text" placeholder="Home / Office Phone Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <label class="col-sm-4 control-label" for="mobile">
+                            Cellphone</label></div>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="mobile" type="text" required="true" placeholder="Your Mobile Number"
+                            required="true">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="email">
+                        Email</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="email" type="email" placeholder="Email Address" required="true">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="Education">
+                        Qualification
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="Education" type="text" required="true" placeholder="Education">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="Profession">
+                        Profession
+                    </label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="Profession" type="text" required="true" placeholder="What you do for living?">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="Religion">
+                        Religion</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" id="Religion" type="text" required="true" placeholder="Religion">
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="Category">
+                        Category</label>
+                    <div class="col-sm-8">
+                        <div class="radios">
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdGeneral">
+                                <input name="Category" id="rdGeneral" type="radio" required="true" checked="" value="1">
+                                General
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdST">
+                                <input name="Category" id="rdST" type="radio" required="true" value="0">
+                                ST
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdSC">
+                                <input name="Category" id="rdSC" type="radio" required="true" checked="" value="1">
+                                SC
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdMinority">
+                                <input name="Category" id="rdMinority" type="radio" required="true" value="0">
+                                Minority
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdOBC">
+                                <input name="Category" id="rdOBC" type="radio" required="true" checked="" value="1">
+                                OBC
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="marStatus">
+                        Marital Status</label>
+                    <div class="col-sm-8">
+                        <div class="radios">
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdSingle">
+                                <input name="marStatus" id="rdSingle" type="radio" required="true" checked="" value="1">
+                                Single
+                            </label>
+                            <label class="label_radio col-lg-4 col-sm-4" for="rdMarried">
+                                <input name="marStatus" id="rdMarried" type="radio" required="true" value="0">
+                                Married
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="photo">
+                        Upload your photo
+                    </label>
+                    <div class="col-sm-8">
+                        <input id="photo" type="file">
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <p>
+                        <b>I wish to apply for the annual membership of the AIMIM, I accept the constitution
+                            of the AIMIM and I declare that:</b>
+                    </p>
+                    <ul>
+                        <li>I declare that all the information I have given on this form are true and correct.</li>
+                        <li>I am aware that it is a serious offense to make a false declaration.</li>
+                        <li>I am a citizen of India & I am above 18 years.</li>
+                        <li>I am not a member of any other political party registered with the Election Commission
+                            of India.</li>
+                        <li>I am not a member with any organization whose views, policies or actions are in
+                            conflict with the objective of AIMIM and constitution of India.</li>
+                        <li>I have not been convicted of any offense involving moral turpitude.</li>
+                        <li>I have full faith in the objectives and vision of the party.</li>
+                        <li>I hereby consent to receiving any communication from the party either in writing,
+                            electronically and/or in any audio-visual format via phone (including SMS/MMS/Whatsapp),
+                            email and/or at my address.</li>
+                        <li>The particulars and statements made above are true and correct to the best of my
+                            knowledge and nothing has been concealed or withheld.</li>
+                        <li>I will abide by all the instructions and orders issued by the party from time to
+                            time and to work with all honesty, sincerity and to observe strict discipline, decorum
+                            & reputation of the party.</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-11">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">
+                                I agree
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                </form>
+                <hr />
+                <form class="form-horizontal" role="form" action="">
+                <div class="form-group">
+                    <div class="col-sm-offset-5 col-sm-7">
+                        <button class="btn btn-default" type="submit">
+                            Register Now!</button>
+                    </div>
+                </div>
+                </form>
+            </div>
         </div>
     </div>
-  
     <!--small footer start -->
-  <footer class="footer-small">
+    <footer class="footer-small">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright">
-                       <i class="fa fa-home pr-10"></i>B.G CORNER, NEAR ALPLINE HOTEL,<br /> PIMPRI CHOWK,PCMC,<br /> MAHARASHTRA, INDIA.
+                        <i class="fa fa-home pr-10"></i>B.G CORNER, NEAR ALPLINE HOTEL,<br />
+                        PIMPRI CHOWK,<br />
+                        PCMC,<br />
+                        MAHARASHTRA, INDIA.
+                        <p>
+                        </p>
+                        <p>
+                            <i class="fa fa-phone pr-10"></i>+91 9960606082 / +91 7028881888</p>
+                        <p>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope pr-10"></i><a href="javascript:;">info@aimimpcmc.org</a></p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="copyright">
-                        <p><i class="fa fa-phone pr-10"></i>+91 9960606082 / +91 7028881888</br>
-                        <i class="fa fa-envelope pr-10"></i><a href="javascript:;">info@aimimpcmc.org</a></br>
-                         &copy; Copyright - AIMIM PCMC.</p>
+                        <p>
+                            &copy; Copyright - AIMIM PCMC.</p>
                     </div>
                 </div>
                 <div class="col-md-3 pull-right">
                     <ul class="social-link-footer list-unstyled">
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".1s"><a href="https://www.facebook.com/Aimimpcmc-1471075753201485/"><i
-                            class="fa fa-facebook"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".5s"><a href="https://twitter.com/aimimpcmc1"><i
-                            class="fa fa-twitter"></i></a></li>
+                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".1s"><a href="https://www.facebook.com/Aimimpcmc-1471075753201485/">
+                            <i class="fa fa-facebook"></i></a></li>
+                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".5s"><a href="https://twitter.com/aimimpcmc1">
+                            <i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>

@@ -1109,7 +1109,7 @@ section.contact-infos {
 .date-wrap .date {
     font-size: 30px;
     font-weight: 300;
-    background: #D81B81;
+    background: #23793a;
     color: #fff;
     border-radius: 1px 1px 0 0;
     -webkit-border-radius: 1px 1px 0 0;
@@ -1147,7 +1147,7 @@ section.contact-infos {
 .blog-item h1,
 .blog-item h1 a {
     font-size: 25px;
-    color: #D81B81;
+    color: #23793a;
     font-weight: 300;
 }
 .blog-item h1 {
@@ -2579,7 +2579,7 @@ p { text-align: left }
 .btn.btn-info:hover,
 .btn.btn-info:active,
 .btn.btn-info.hover {
-    background-color: #D81B81;
+    background-color: #23793a;
     border: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
